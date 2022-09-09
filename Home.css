@@ -1,0 +1,574 @@
+body{
+    background-color: #05152f;
+    color: white;
+    font-family:'Righteous', cursive;
+    margin-left: 0px;
+    margin-right: 0px;;
+}
+.parr1 {
+	position:absolute;
+	width: 150px;
+	height: 300px;
+	transform: skew(340deg);
+	background:#7ba435;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity: 0.05;
+}
+.parr2 {
+	position:absolute;
+	width: 150px;
+	height: 500px;
+	transform: skew(340deg);
+	background: #7ba435;
+    top:0px;
+    left:90px;
+    z-index:-2;
+    opacity:0.05;
+}
+
+.parr3 {
+	position:absolute;
+	width: 150px;
+	height: 300px;
+	transform: skew(340deg);
+	background:#7ba435;
+    top:350px;
+    right:60px;
+    z-index:-1;
+    opacity: 0.05;
+}
+.parr4 {
+	position:absolute;
+	width: 150px;
+	height: 500px;
+	transform: skew(340deg);
+	background: #7ba435;
+    top:150px;
+    right:150px;
+    z-index:-2;
+    opacity:0.05;
+}
+
+li{
+    display: inline;
+     
+}
+.topnav{
+    text-align: center;
+}
+
+#left{
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.right{
+    padding: 10px 15px 10px 15px;
+    float: right;
+    position:relative;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: white;
+    color: #7ba435;
+    border-radius: 5px;
+}
+
+#center{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#center:hover{
+    background-color: #7ba435;
+}
+
+#cart{
+    float:right;
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+.p1text{
+    padding-left: 135px;
+    margin-top: 100px;
+    width: 40%;
+    float: left;
+}
+
+.p1child{
+    width: 170px;
+}
+
+
+.pn{
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    position:relative;
+    background-color: white;
+    color: #7ba435;
+    border-radius: 5px;
+    width: 90px;
+    float:left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#pn{
+    display: inline;
+}
+
+.triangle{
+    margin-top: 20px;
+    width: 30;
+    height: 30;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #7ba435 ;
+    border-bottom: 5px solid transparent;
+    float: right;   
+}
+
+.circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    left: 140px;
+    z-index:-1;
+    border: 5px solid rgba(25, 39, 63, 1);
+    
+}
+ #warzone{
+    float: right;
+    margin-right: 50px;
+ }
+
+#aw{
+    display: inline;
+    float: left;
+    margin-right: 50px;
+    color: #7ba435;
+
+}
+
+#at{
+    color: #7ba435;
+}
+
+#gwl{
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.part2{
+    margin-top: 550px;
+    height: 500px;
+    background-color: #000f2e;
+    margin-left: 0;
+    height: 400px;
+}
+
+#girl{
+    margin-top: 50px;
+    height: 300px;
+    margin-left: 135px;
+    float: left;
+}
+
+.p2text{
+    width:400px;
+    float: right;
+    margin-top: 50px ;
+    margin-right: 15%;
+    
+    
+}
+
+#line{
+    color: #7ba435;
+    text-align: left;
+    position: relative;
+}
+
+#line:before{
+    content:"";
+    width: 40px;
+    height: 2px;
+    background-color: #7ba435;
+    left: 0;
+    top: 50%;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#wuls{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gamic{
+    margin-bottom: 20px;
+}
+
+.triangle2{
+    margin-top: 183px;
+    width: 50;
+    height: 50;
+    border-top: 8px solid transparent;
+    border-left: 15px solid #7ba435 ;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    left: 360px;
+    z-index: 3;
+}
+
+.circle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    left: 140px;
+    z-index:2;
+    margin-top: 150px;
+    left: 325px;
+    opacity: 0.7;
+}
+
+.hexagon{
+    background-color: #7ba435;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    margin-top: 325px;
+    left: 250px;
+    z-index: 2;    
+}
+
+.hexagon:before{
+    content:"";
+    transform: rotate(45deg);
+    background-color: #7ba435;
+    width:38px;
+    height:39px;
+    top: 5.3px;
+    right: 230px;
+    position:absolute;
+    border-radius:6px;
+    z-index:-2;
+}
+
+.hexagon:after {
+    content:"";
+    transform: rotate(45deg);
+    background-color: #7ba435;
+    width:38px;
+    height:39px;
+    top: 5.3px;
+    left: 230px;
+    position:absolute;
+    border-radius:6px;
+    z-index:-2;
+}
+
+#upm, #ts{
+    text-align: center;
+    width: 33%;
+    margin-left:33%
+}
+
+#upm{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.match1{
+    border: 2px solid #1c2e44 ;
+    width: 20%;
+    margin-left: 15%;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+    float: left;
+}
+
+.m11{
+    margin-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-bottom:2px solid #1c2e44;
+}
+
+#img, #vs{
+    width: 50px;
+    margin-top: 15px;
+}
+
+#vs{
+    margin: 0px 15px 0px 15px;
+}
+
+#watch{
+    display: inline;
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+#ls{
+    margin-top: 6px;
+}
+
+.livestream{
+    border: 2px solid #1c2e44;
+    position: absolute;
+    width:150px;
+    z-index:2;
+    margin-top: -20px;
+    height: 30px;
+    background-color: #05152f;
+    margin-left: 18%;
+    border-radius: 50px;
+}
+
+.details{
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+#date{
+    color:#82898d ;
+    font-size: 13px;
+}
+
+#matchname{
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#teamsr{
+    font-size: 13px;
+    color: #7ba435;
+}
+
+.match2{
+    border: 2px solid #1c2e44 ;
+    width: 20%;
+    margin-left:5%;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 40px;
+    float: left;
+}
+.m12{
+    margin-top: 16px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-bottom:2px solid #1c2e44;
+}
+
+.otm{
+    position: relative;
+}
+
+.match1:hover{
+    border-color: #7ba435;
+}
+
+.match2:hover{
+    border-color: #7ba435;
+}
+
+.otm{
+    left:45%;
+    margin-top: 25px;
+    background-color: white;
+    color: #7ba435;
+    border-radius: 5px;
+    width: 130px;
+    padding: 10px 15px 10px 15px;
+}
+
+.p4{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 35px;
+    text-align: center;
+    
+}
+
+.part4{
+    margin-top: 50px;
+    background-color:#000f2e;
+    
+}
+
+.p4child{
+    width: 67%;
+    margin-left: 15%;
+    border: 2px solid #1c2e44;
+    margin-top: 75px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 75px;
+    border-radius: 15px;
+}
+
+#p41{
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#p42{
+    font-size: 12px;
+    background-color: #7ba435;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.part5{
+    margin-top: 20px;
+    margin-left: 16%;
+    border-radius: 15px;
+    height: 120px;
+    margin-right: 15%;
+    background-color: white;
+}
+
+.sub{
+    width: 40%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #7ba435;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+#email{
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-top: 35px;
+    height: 50px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #7ba435;
+}
+
+.subn{
+    position: absolute;
+    color:#7ba435;
+    background-color: white;
+    border-radius: 5px;
+    margin-top:-45px;
+    right: 18%;
+    padding:10px
+}
+
+#subnews{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#substext{
+    font-size: 13px;
+}
+
+.part6{
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 15%;
+    color:#82898d;
+}
+
+#p6{
+    float: left;
+}
+
+.p61{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.p62{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.p63{
+    
+    margin-right: 5%;
+   
+}
+
+#p6t{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#p6title{
+    color: white;
+    font-size: 18px ;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#p6sub{
+    color: #7ba435;
+}
+
+#slogo{
+    width: 20px;
+    margin-right: 5%;
+    background-color:#1c2e44;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.winners{
+    width: 60%;
+}
+
+#win{
+    width: 50px;
+    margin: 5px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
