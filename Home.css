@@ -3,9 +3,9 @@ body{
     color: white;
     font-family:'Righteous', cursive;
     margin-left: 0px;
-    margin-right: 0px;;
+    margin-right: 0px;
 }
-.parr1 {
+.paralellogram_1 {
 	position:absolute;
 	width: 150px;
 	height: 300px;
@@ -16,7 +16,7 @@ body{
     z-index:-1;
     opacity: 0.05;
 }
-.parr2 {
+.paralellogram_2 {
 	position:absolute;
 	width: 150px;
 	height: 500px;
@@ -28,7 +28,7 @@ body{
     opacity:0.05;
 }
 
-.parr3 {
+.paralellogram_3  {
 	position:absolute;
 	width: 150px;
 	height: 300px;
@@ -39,7 +39,7 @@ body{
     z-index:-1;
     opacity: 0.05;
 }
-.parr4 {
+.paralellogram_4  {
 	position:absolute;
 	width: 150px;
 	height: 500px;
@@ -61,32 +61,51 @@ li{
 
 #left{
     float: left;
-    margin-left: 100px;
+    margin-left: 13%;
     margin-top: 25px;
     font-size: 25px;
 }
 
 .right{
-    padding: 10px 15px 10px 15px;
+    padding: 10px 20px 10px 20px;
     float: right;
     position:relative;
     margin-top: 20px;
-    margin-right: 100px;
-    background-color: white;
-    color: #7ba435;
+    margin-right: 13%;
+    background-color:#7ba435;
+    color: white;
     border-radius: 5px;
 }
 
-#center{
-    padding: 10px 15px 10px 15px;
+.arrow{
+    width:12px;
+}
+
+#home{
+    background-color: #7ba435;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    padding: 10px 20px 10px 20px;
     border-radius: 5px;
     display: inline-block;
     margin-top: 20px;
 }
 
-#center:hover{
+.center:hover{
     background-color: #7ba435;
 }
+
+#down_arrow{
+    width: 12px;
+    padding-left: 7px;
+}
+
 
 #cart{
     float:right;
@@ -96,24 +115,24 @@ li{
     margin-top: 30px;
 }
 
-.p1text{
-    padding-left: 135px;
+.part_1_text{
+    padding-left: 15%;
     margin-top: 100px;
     width: 40%;
     float: left;
 }
 
-.p1child{
+.part_1_child{
     width: 170px;
 }
 
 
-.pn{
+.play_now{
     display: inline;
     padding: 10px 15px 10px 15px;
     position:relative;
-    background-color: white;
-    color: #7ba435;
+    background-color:#7ba435;
+    color: white;
     border-radius: 5px;
     width: 90px;
     float:left;
@@ -121,7 +140,7 @@ li{
     margin-top: 5px;
 }
 
-#pn{
+#play_now{
     display: inline;
 }
 
@@ -151,7 +170,7 @@ li{
     margin-right: 50px;
  }
 
-#aw{
+#any_where{
     display: inline;
     float: left;
     margin-right: 50px;
@@ -159,19 +178,18 @@ li{
 
 }
 
-#at{
+#any_time{
     color: #7ba435;
 }
 
-#gwl{
+#game_with_livestreaming{
     font-size: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.part2{
+.part_2{
     margin-top: 550px;
-    height: 500px;
     background-color: #000f2e;
     margin-left: 0;
     height: 400px;
@@ -180,11 +198,11 @@ li{
 #girl{
     margin-top: 50px;
     height: 300px;
-    margin-left: 135px;
+    margin-left: 15%;
     float: left;
 }
 
-.p2text{
+.part_2_text{
     width:400px;
     float: right;
     margin-top: 50px ;
@@ -193,18 +211,17 @@ li{
     
 }
 
-#line{
+#live_streaming{
     color: #7ba435;
     text-align: left;
     position: relative;
 }
 
-#line:before{
+#live_streaming:before{
     content:"";
     width: 40px;
     height: 2px;
     background-color: #7ba435;
-    left: 0;
     top: 50%;
     position: relative;
     float: left;
@@ -212,7 +229,7 @@ li{
     margin-right: 10px;
 }
 
-#wuls{
+#watch_unlimited{
     font-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -230,7 +247,7 @@ li{
     border-left: 15px solid #7ba435 ;
     border-bottom: 8px solid transparent;
     position: absolute;
-    left: 360px;
+    left: 32.5%;
     z-index: 3;
 }
 
@@ -240,28 +257,28 @@ li{
     height: 80px;
     border-radius: 50%;
     background: white;
-    left: 140px;
     z-index:2;
     margin-top: 150px;
-    left: 325px;
+    left: 30%;
     opacity: 0.7;
 }
 
 .hexagon{
-    background-color: #7ba435;
+    background-color: white;
+    color: #7ba435;
     width: 250px;
     height: 50px;
     position: absolute;
     text-align: center;
     margin-top: 325px;
-    left: 250px;
+    left: 23%;
     z-index: 2;    
 }
 
 .hexagon:before{
     content:"";
     transform: rotate(45deg);
-    background-color: #7ba435;
+    background-color: white;
     width:38px;
     height:39px;
     top: 5.3px;
@@ -274,7 +291,7 @@ li{
 .hexagon:after {
     content:"";
     transform: rotate(45deg);
-    background-color: #7ba435;
+    background-color: white;
     width:38px;
     height:39px;
     top: 5.3px;
@@ -284,18 +301,18 @@ li{
     z-index:-2;
 }
 
-#upm, #ts{
+#upcoming_match, #part_3_text{
     text-align: center;
     width: 33%;
     margin-left:33%
 }
 
-#upm{
+#upcoming_match{
     font-size: 40px;
     margin-bottom: 10px;
 }
 
-.match1{
+.match_1{
     border: 2px solid #1c2e44 ;
     width: 20%;
     margin-left: 15%;
@@ -305,23 +322,24 @@ li{
     float: left;
 }
 
-.m11{
+.match_div1{
     margin-top: 0px;
     padding-bottom: 40px;
     text-align: center;
     border-bottom:2px solid #1c2e44;
 }
 
-#img, #vs{
+.img, .vs{
     width: 50px;
-    margin-top: 15px;
+    margin-top: 25px;
+    
 }
 
-#vs{
-    margin: 0px 15px 0px 15px;
+.vs{
+    margin: 0px 25px 0px 25px;
 }
 
-#watch{
+.watch{
     display: inline;
     width: 20px;
     float: left;
@@ -330,44 +348,49 @@ li{
     margin-top: 6px;
 }
 
-#ls{
-    margin-top: 6px;
+.live_stream{
+    margin-top: 9px;
+    font-size: 11px;
+    color: #7ba435;
 }
 
 .livestream{
     border: 2px solid #1c2e44;
     position: absolute;
-    width:150px;
+    width:120px;
     z-index:2;
     margin-top: -20px;
     height: 30px;
     background-color: #05152f;
-    margin-left: 18%;
+    margin-left: 25%;
     border-radius: 50px;
 }
 
 .details{
     margin-top: 40px;
-    margin-left: 5%;
+    
+    padding-bottom: 20px ;
+    margin-left: 10%;
+
 }
 
-#date{
+.date{
     color:#82898d ;
-    font-size: 13px;
+    font-size: 11px;
 }
 
-#matchname{
+.match_name{
     font-size: 17px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-#teamsr{
-    font-size: 13px;
+.teams_registered{
+    font-size: 11px;
     color: #7ba435;
 }
 
-.match2{
+.match_2{
     border: 2px solid #1c2e44 ;
     width: 20%;
     margin-left:5%;
@@ -376,50 +399,50 @@ li{
     margin-top: 40px;
     float: left;
 }
-.m12{
+.match_div2{
     margin-top: 16px;
     padding-bottom: 40px;
     text-align: center;
     border-bottom:2px solid #1c2e44;
 }
 
-.otm{
+.others_match{
     position: relative;
 }
 
-.match1:hover{
+.match_1:hover{
     border-color: #7ba435;
 }
 
-.match2:hover{
+.match_2:hover{
     border-color: #7ba435;
 }
 
-.otm{
+.others_match{
     left:45%;
     margin-top: 25px;
-    background-color: white;
-    color: #7ba435;
+    background-color:#7ba435;
+    color: white;
     border-radius: 5px;
     width: 130px;
     padding: 10px 15px 10px 15px;
 }
 
-.p4{
+.part_4_div{
     display: inline-block;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 35px;
     text-align: center;
     
 }
 
-.part4{
+.part_4{
     margin-top: 50px;
     background-color:#000f2e;
     
 }
 
-.p4child{
+.part_4_child{
     width: 67%;
     margin-left: 15%;
     border: 2px solid #1c2e44;
@@ -430,13 +453,13 @@ li{
     border-radius: 15px;
 }
 
-#p41{
+.part_4_1{
     font-size: 70px;
     margin-bottom: 10px;
     margin-top: 15px;
 }
 
-#p42{
+.part_4_2{
     font-size: 12px;
     background-color: #7ba435;
     padding-top: 5px;
@@ -444,24 +467,24 @@ li{
     border-radius: 15px;
 }
 
-.part5{
+.part_5{
     margin-top: 20px;
     margin-left: 16%;
     border-radius: 15px;
     height: 120px;
     margin-right: 15%;
-    background-color: white;
+    background-color:#7ba435;
 }
 
-.sub{
+.subscribe{
     width: 40%;
     float: left;
     padding-top: 10px;
     padding-left: 30px;
-    color: #7ba435;
+    color: white;
 }
 ::placeholder{
-    color: white;
+    color:#7ba435;
     opacity: 1;
 }
 #email{
@@ -472,65 +495,70 @@ li{
     width: 50%;
     border: none;
     border-radius: 10px;
-    background-color: #7ba435;
+    background-color: white;
+    color: #7ba435;
 }
 
-.subn{
+.subscribe_button{
     position: absolute;
-    color:#7ba435;
-    background-color: white;
+    color:white;
+    background-color:#000f2e;
     border-radius: 5px;
     margin-top:-45px;
     right: 18%;
     padding:10px
 }
 
-#subnews{
+#subscribe_newsletter{
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-#substext{
+#subscribe_text{
     font-size: 13px;
 }
 
-.part6{
+.part_6{
     font-size: 14px;
     margin-top: 50px;
     margin-left: 15%;
-    color:#82898d;
+    color: #c0c6ce;
+}
+
+#space{
+    z-index: 2;
 }
 
 #p6{
     float: left;
 }
 
-.p61{
+.part_6_1{
     width: 20%;
     margin-right: 5%;
 }
 
-.p62{
+.part_6_2{
     width: 20%;
     margin-right: 5%;
 }
 
-.p63{
+.part_6_3{
     
     margin-right: 5%;
    
 }
-
-#p6t{
-    color: white;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-#p6title{
+.part_6_title{
     color: white;
     font-size: 18px ;
     margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.part_6_Game8{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -538,7 +566,7 @@ li{
     color: #7ba435;
 }
 
-#slogo{
+.social_media{
     width: 20px;
     margin-right: 5%;
     background-color:#1c2e44;
@@ -550,7 +578,7 @@ li{
     width: 60%;
 }
 
-#win{
+.win{
     width: 50px;
     margin: 5px;
 }
