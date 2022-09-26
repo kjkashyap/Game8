@@ -1,601 +1,223 @@
-body{
-    background-color: #05152f;
-    color: white;
-    font-family:'Righteous', cursive;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.paralellogram_1 {
-	position:absolute;
-	width: 150px;
-	height: 300px;
-	transform: skew(340deg);
-	background:#7ba435;
-    top:0;
-    left:0;
-    z-index:-1;
-    opacity: 0.05;
-}
-.paralellogram_2 {
-	position:absolute;
-	width: 150px;
-	height: 500px;
-	transform: skew(340deg);
-	background: #7ba435;
-    top:0px;
-    left:90px;
-    z-index:-2;
-    opacity:0.05;
-}
-
-.paralellogram_3  {
-	position:absolute;
-	width: 150px;
-	height: 300px;
-	transform: skew(340deg);
-	background:#7ba435;
-    top:350px;
-    right:60px;
-    z-index:-1;
-    opacity: 0.05;
-}
-.paralellogram_4  {
-	position:absolute;
-	width: 150px;
-	height: 500px;
-	transform: skew(340deg);
-	background: #7ba435;
-    top:150px;
-    right:150px;
-    z-index:-2;
-    opacity:0.05;
-}
-
-li{
-    display: inline;
-     
-}
-.topnav{
-    text-align: center;
-}
-
-#left{
-    float: left;
-    margin-left: 13%;
-    margin-top: 25px;
-    font-size: 25px;
-}
-
-.right{
-    padding: 10px 20px 10px 20px;
-    float: right;
-    position:relative;
-    margin-top: 20px;
-    margin-right: 13%;
-    background-color:#7ba435;
-    color: white;
-    border-radius: 5px;
-}
-
-.arrow{
-    width:12px;
-}
-
-#home{
-    background-color: #7ba435;
-    color: white;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-.center{
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.center:hover{
-    background-color: #7ba435;
-}
-
-#down_arrow{
-    width: 12px;
-    padding-left: 7px;
-}
-
-
-#cart{
-    float:right;
-    width: 20px;
-    height: 20px;
-    padding-right: 15px;
-    margin-top: 30px;
-}
-
-.part_1_text{
-    padding-left: 15%;
-    margin-top: 100px;
-    width: 40%;
-    float: left;
-}
-
-.part_1_child{
-    width: 170px;
-}
-
-
-.play_now{
-    display: inline;
-    padding: 10px 15px 10px 15px;
-    position:relative;
-    background-color:#7ba435;
-    color: white;
-    border-radius: 5px;
-    width: 90px;
-    float:left;
-    margin-right: 10px;
-    margin-top: 5px;
-}
-
-#play_now{
-    display: inline;
-}
-
-.triangle{
-    margin-top: 20px;
-    width: 30;
-    height: 30;
-    border-top: 5px solid transparent;
-    border-left: 10px solid #7ba435 ;
-    border-bottom: 5px solid transparent;
-    float: right;   
-}
-
-.circle{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: white;
-    left: 140px;
-    z-index:-1;
-    border: 5px solid rgba(25, 39, 63, 1);
-    
-}
- #warzone{
-    float: right;
-    margin-right: 50px;
- }
-
-#any_where{
-    display: inline;
-    float: left;
-    margin-right: 50px;
-    color: #7ba435;
-
-}
-
-#any_time{
-    color: #7ba435;
-}
-
-#game_with_livestreaming{
-    font-size: 70px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.part_2{
-    margin-top: 550px;
-    background-color: #000f2e;
-    margin-left: 0;
-    height: 400px;
-}
-
-#girl{
-    margin-top: 50px;
-    height: 300px;
-    margin-left: 15%;
-    float: left;
-}
-
-.part_2_text{
-    width:400px;
-    float: right;
-    margin-top: 50px ;
-    margin-right: 15%;
-    
-    
-}
-
-#live_streaming{
-    color: #7ba435;
-    text-align: left;
-    position: relative;
-}
-
-#live_streaming:before{
-    content:"";
-    width: 40px;
-    height: 2px;
-    background-color: #7ba435;
-    top: 50%;
-    position: relative;
-    float: left;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-#watch_unlimited{
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#gamic{
-    margin-bottom: 20px;
-}
-
-.triangle2{
-    margin-top: 183px;
-    width: 50;
-    height: 50;
-    border-top: 8px solid transparent;
-    border-left: 15px solid #7ba435 ;
-    border-bottom: 8px solid transparent;
-    position: absolute;
-    left: 32.5%;
-    z-index: 3;
-}
-
-.circle2{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: white;
-    z-index:2;
-    margin-top: 150px;
-    left: 30%;
-    opacity: 0.7;
-}
-
-.hexagon{
-    background-color: white;
-    color: #7ba435;
-    width: 250px;
-    height: 50px;
-    position: absolute;
-    text-align: center;
-    margin-top: 325px;
-    left: 23%;
-    z-index: 2;    
-}
-
-.hexagon:before{
-    content:"";
-    transform: rotate(45deg);
-    background-color: white;
-    width:38px;
-    height:39px;
-    top: 5.3px;
-    right: 230px;
-    position:absolute;
-    border-radius:6px;
-    z-index:-2;
-}
-
-.hexagon:after {
-    content:"";
-    transform: rotate(45deg);
-    background-color: white;
-    width:38px;
-    height:39px;
-    top: 5.3px;
-    left: 230px;
-    position:absolute;
-    border-radius:6px;
-    z-index:-2;
-}
-
-#upcoming_match, #part_3_text{
-    text-align: center;
-    width: 33%;
-    margin-left:33%
-}
-
-#upcoming_match{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.match_1{
-    border: 2px solid #1c2e44 ;
-    width: 20%;
-    margin-left: 15%;
-    border-radius: 5px;
-    position: relative;
-    margin-top: 40px;
-    float: left;
-}
-
-.match_div1{
-    margin-top: 0px;
-    padding-bottom: 40px;
-    text-align: center;
-    border-bottom:2px solid #1c2e44;
-}
-
-.img, .vs{
-    width: 50px;
-    margin-top: 25px;
-    
-}
-
-.vs{
-    margin: 0px 25px 0px 25px;
-}
-
-.watch{
-    display: inline;
-    width: 20px;
-    float: left;
-    margin-right: 10px;
-    margin-left: 15px;
-    margin-top: 6px;
-}
-
-.live_stream{
-    margin-top: 9px;
-    font-size: 11px;
-    color: #7ba435;
-}
-
-.livestream{
-    border: 2px solid #1c2e44;
-    position: absolute;
-    width:120px;
-    z-index:2;
-    margin-top: -20px;
-    height: 30px;
-    background-color: #05152f;
-    margin-left: 25%;
-    border-radius: 50px;
-}
-
-.details{
-    margin-top: 40px;
-    
-    padding-bottom: 20px ;
-    margin-left: 10%;
-
-}
-
-.date{
-    color:#82898d ;
-    font-size: 11px;
-}
-
-.match_name{
-    font-size: 17px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.teams_registered{
-    font-size: 11px;
-    color: #7ba435;
-}
-
-.match_2{
-    border: 2px solid #1c2e44 ;
-    width: 20%;
-    margin-left:5%;
-    border-radius: 5px;
-    position: relative;
-    margin-top: 40px;
-    float: left;
-}
-.match_div2{
-    margin-top: 16px;
-    padding-bottom: 40px;
-    text-align: center;
-    border-bottom:2px solid #1c2e44;
-}
-
-.others_match{
-    position: relative;
-}
-
-.match_1:hover{
-    border-color: #7ba435;
-}
-
-.match_2:hover{
-    border-color: #7ba435;
-}
-
-.others_match{
-    left:45%;
-    margin-top: 25px;
-    background-color:#7ba435;
-    color: white;
-    border-radius: 5px;
-    width: 130px;
-    padding: 10px 15px 10px 15px;
-}
-
-.part_4_div{
-    display: inline-block;
-    padding-right: 30px;
-    padding-left: 35px;
-    text-align: center;
-    
-}
-
-.part_4{
-    margin-top: 50px;
-    background-color:#000f2e;
-    
-}
-
-.part_4_child{
-    width: 67%;
-    margin-left: 15%;
-    border: 2px solid #1c2e44;
-    margin-top: 75px;
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 75px;
-    border-radius: 15px;
-}
-
-.part_4_1{
-    font-size: 70px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-
-.part_4_2{
-    font-size: 12px;
-    background-color: #7ba435;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-}
-
-.part_5{
-    margin-top: 20px;
-    margin-left: 16%;
-    border-radius: 15px;
-    height: 120px;
-    margin-right: 15%;
-    background-color:#7ba435;
-}
-
-.subscribe{
-    width: 40%;
-    float: left;
-    padding-top: 10px;
-    padding-left: 30px;
-    color: white;
-}
-::placeholder{
-    color:#7ba435;
-    opacity: 1;
-}
-#email{
-    padding-left: 10px;
-    margin-left: 20px;
-    margin-top: 35px;
-    height: 50px;
-    width: 50%;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: #7ba435;
-}
-
-.subscribe_button{
-    position: absolute;
-    color:white;
-    background-color:#000f2e;
-    border-radius: 5px;
-    margin-top:-45px;
-    right: 18%;
-    padding:10px
-}
-
-#subscribe_newsletter{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-#subscribe_text{
-    font-size: 13px;
-}
-
-.part_6{
-    font-size: 14px;
-    margin-top: 50px;
-    margin-left: 15%;
-    color: #c0c6ce;
-}
-
-#space{
-    z-index: 2;
-}
-
-#p6{
-    float: left;
-}
-
-.part_6_1{
-    width: 20%;
-    margin-right: 5%;
-}
-
-.part_6_2{
-    width: 20%;
-    margin-right: 5%;
-}
-
-.part_6_3{
-    
-    margin-right: 5%;
-   
-}
-.part_6_title{
-    color: white;
-    font-size: 18px ;
-    margin-top: 15px;
-    margin-bottom: 40px;
-}
-
-.part_6_Game8{
-    color: white;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
-#p6sub{
-    color: #7ba435;
-}
-
-.social_media{
-    width: 20px;
-    margin-right: 5%;
-    background-color:#1c2e44;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.winners{
-    width: 60%;
-}
-
-.win{
-    width: 50px;
-    margin: 5px;
-}
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Game8</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Home.css">
+    </head>
+    <body>
+        <div class="topnav">
+                <ul>
+                    <li id="left"><b>Game8</b></li> 
+                    <li class="center" id="home"><a href="index.html">HOME</a></li>
+                    <li class="center">SHOP</li>
+                    <li class="center" class="dropdown">PAGES<img src="down-arrow.png" id="down_arrow"></li>
+                    <li class="center">BLOG</li>
+                    <li class="center" id="home">CONTACT</li>
+                    <div class="right">
+                        <li>JOIN NOW</li>
+                        <img src="arrow.png" class="arrow">
+                    </div>
+                    <img id="cart" src="cart.png">
+                    </ul>
+        </div>
+        <div class="paralellogram_1"></div>
+        <div class="paralellogram_2"></div>
+        <div class="paralellogram_3"></div>
+        <div class="paralellogram_4"></div>
+        <div class="part_1">
+            <div class="part_1_text">
+                <p id="any_where">ANY WHERE</p>
+                <img src="star.png" id="star">
+                <p id="any_time">ANY TIME</p>
+                <p id="game_with_livestreaming">GAME WITH LIVESTREAMING</p>
+                <p>There are many variations of passages of Lorem Ipsum available have suffered alteration in some injected</p>
+                <div class="part_1_child">
+                    <div class="play_now">
+                        <p id="play_now">PLAY NOW</p>
+                        <img src="arrow.png" class="arrow" id="play_now"></div>
+                    <div class="triangle"></div>
+                    <div class="circle"></div>
+                </div>   
+        </div>
+        <img src="warzone.png" id="warzone">
+        </div>
+        <div class="part_2">
+            <img src="girl.png" id="girl">
+            <div class="triangle2"></div>
+            <div class="circle2"></div>
+            <div class="hexagon">
+                <p id="watch_live_streaming">WATCH LIVE STREAMING</p>
+            </div>
+            <div class="part_2_text">
+                <p id="live_streaming">LIVE STREAMING</p>
+                <p id="watch_unlimited">WATCH UNLIMITED LIVE STREAMING.</p>
+                <p>Gamic is the best way to explore the world of gaming. With a new, fully interactive website</p>
+                <div class="play_now_2">
+                    <p id="play_now">PLAY NOW</p>
+                    <img src="arrow.png" class="arrow"></div>
+                </div>
+            </div>  
+            
+        <div class="part_3">
+            <p id="upcoming_match">UPCOMING MATCH</p>
+            <p id="part_3_text">The teams soccer in the next hour. You've been waiting for the best. You've got the match of your life</p>
+            <div class="match_1">
+                <div class="match_div1">
+                    <img src="m1.png" class="img">
+                    <img src="vs.png" class="vs">
+                    <img src="m2.png" class="img"></div>
+                <div class="livestream">
+                    <img src="watch.png" class="watch">
+                    <p class="live_stream">Live Stream</p>
+                </div>
+                <div class="details">
+                    <p class="date">Sunday, June 26, 2022</p>
+                    <p class="match_name">APPLETON GAME 2022</p>
+                    <p class="teams_registered">02 Teams Registered</p>
+                </div>
+            </div>
+            <div class="match_2">
+                <div class="match_div2">
+                    <img src="m3.png" class="img">
+                    <img src="vs.png" class="vs">
+                    <img src="m4.png" class="img"></div>
+                <div class="livestream">
+                    <img src="watch.png" class="watch">
+                    <p class="live_stream">Live Stream</p>
+                </div>
+                <div class="details">
+                    <p class="date">Sunday, June 26, 2022</p>
+                    <p class="match_name">WINOCREW GAME 2022</p>
+                    <p class="teams_registered">03 Teams Registered</p>
+                </div>  
+            </div>
+            <div class="match_2">
+                <div class="match_div2">
+                    <img src="m5.png" class="img">
+                    <img src="vs.png" class="vs">
+                    <img src="m6.png" class="img"></div>
+                <div class="livestream">
+                    <img src="watch.png" class="watch">
+                    <p class="live_stream">Live Stream</p>
+                </div>
+                <div class="details">
+                    <p class="date">Sunday, June 26, 2022</p>
+                    <p class="match_name">MYSTICMERRY GAME 2022</p>
+                    <p class="teams_registered">02 Teams Registered</p>
+                </div>
+            </div>
+            <div class="match_1">
+                <div class="match_div1">
+                    <img src="m7.png" class="img">
+                    <img src="vs.png" class="vs">
+                    <img src="m8.png" class="img"></div>
+                <div class="livestream">
+                    <img src="watch.png" class="watch">
+                    <p class="live_stream">Live Stream</p>
+                </div>
+                <div class="details">
+                    <p class="date">Sunday, June 26, 2022</p>
+                    <p class="match_name">MYSTICMERRY GAME 2022</p>
+                    <p class="teams_registered">02 Teams Registered</p>
+                </div>
+            </div>
+            <div class="match_2">
+                <div class="match_div1">
+                    <img src="m9.png" class="img">
+                    <img src="vs.png" class="vs">
+                    <img src="m10.png" class="img"></div>
+                <div class="livestream">
+                    <img src="watch.png" class="watch">
+                    <p class="live_stream">Live Stream</p>
+                </div>
+                <div class="details">
+                    <p class="date">Sunday, June 26, 2022</p>
+                    <p class="match_name">MYSTICMERRY GAME 2022</p>
+                    <p class="teams_registered">02 Teams Registered</p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br clear="all">
+        <div class="others_match">
+            <p id="play_now">Other's Match</p>
+            <img src="arrow.png" class="arrow"></div>
+        <div class="part_4">
+            <div class="part_4_child">
+            <div class="part_4_div">
+                    <p class="part_4_1">8697</p>
+                    <p class="part_4_2">TWITCH STREAMS</p>
+            </div>
+            <div class="part_4_div">
+                <p class="part_4_1">428</p>
+                <p class="part_4_2">TOTAL GAMES</p>
+            </div>
+            <div class="part_4_div">
+                <p class="part_4_1">5480</p>
+                <p class="part_4_2">YOUTUBE STREAMS</p>
+            </div>
+            <div class="part_4_div">
+                <p class="part_4_1">249</p>
+                <p class="part_4_2">PRO TEAM</p>
+            </div>
+            </div>
+        </div>
+        <div class="part_5">
+            <div class="subscribe">
+                <p id="subscribe_newsletter">SUBSCRIBE NEWSLETTER</p>
+                <p id="subscribe_text">When unknown printer took type and scrambled it to make type specimen book centuries.</p>
+            </div>
+            <form>
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Enter your email">
+            </form>
+            <div class="subscribe_button">
+                <p id="play_now">SUBSCRIBE</p>
+                <img src="arrow.png" class="arrow"></div>
+        </div>
+        <div class="part_6">
+            
+            <div class="part_6_1" id="p6">
+                <b><p class="part_6_Game8">Game8</p></b>
+                <p>Game8 is the best way to explore the world of gaming. With a new, fully interactive website</p>
+                <div class="social">
+                    <img src="1.png" class="social_media">
+                    <img src="2.png" class="social_media">
+                    <img src="3.png" class="social_media">
+                    <img src="4.png" class="social_media">
+                </div>
+            </div>   
+            <div class="part_6_2" id="p6">
+                <b><p class="part_6_title">CONTACT</p></b>
+                <p id="p6sub">Location:</p>
+                <p>136 Harding Ave Wheeling, West Virginia</p>
+                <p id="p6sub">Phone:</p>
+                <p>00 (62) 632 867 4497</p>
+            </div> 
+            <div class="part_6_3" id="p6">
+                <b><p class="part_6_title">HELP</p></b>
+                <p>Licenses</p>
+                <p>Style Guide</p>
+                <p>ChangeLog</p>
+                <p>Motion Design</p>
+                <p>Illustration</p>
+            </div>
+            <div class="part_6_4" id="p6">
+                <b><p class="part_6_title">TODAY'S WINNERS</p></b>
+                <div class="winners">
+                    <img src="l1.png" class="win">
+                    <img src="l2.png" class="win">
+                    <img src="l3.png" class="win">
+                    <img src="l4.png" class="win">
+                    <img src="l5.png" class="win">
+                    <img src="l6.png" class="win">
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
