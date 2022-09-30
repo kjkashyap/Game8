@@ -1,223 +1,257 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Game8</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Home.css">
-    </head>
-    <body>
-        <div class="topnav">
-                <ul>
-                    <li id="left"><b>Game8</b></li> 
-                    <li class="center" id="home"><a href="index.html">HOME</a></li>
-                    <li class="center">SHOP</li>
-                    <li class="center" class="dropdown">PAGES<img src="down-arrow.png" id="down_arrow"></li>
-                    <li class="center">BLOG</li>
-                    <li class="center" id="home">CONTACT</li>
-                    <div class="right">
-                        <li>JOIN NOW</li>
-                        <img src="arrow.png" class="arrow">
-                    </div>
-                    <img id="cart" src="cart.png">
-                    </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game8</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home.css" />
+    <script src="home.js"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <ul>
+        <li id="left"><b>Game8</b></li>
+        <li id="hamburger-menu" onclick="myFunction()">
+          <img src="burger-menu.png" />
+        </li>
+        <div id="menu" class="menu">
+          <li class="center" id="home"><a href="index.html">HOME</a></li>
+          <li class="center">SHOP</li>
+          <li class="center" class="dropdown">
+            PAGES<img src="down-arrow.png" id="down_arrow" />
+          </li>
+          <li class="center">BLOG</li>
+          <li class="center" id="home">CONTACT</li>
+          <div class="right">
+            <li id="join-now">JOIN NOW</li>
+            <img src="arrow.png" class="arrow" />
+          </div>
+          <img id="cart" src="cart.png" />
         </div>
-        <div class="paralellogram_1"></div>
-        <div class="paralellogram_2"></div>
-        <div class="paralellogram_3"></div>
-        <div class="paralellogram_4"></div>
-        <div class="part_1">
-            <div class="part_1_text">
-                <p id="any_where">ANY WHERE</p>
-                <img src="star.png" id="star">
-                <p id="any_time">ANY TIME</p>
-                <p id="game_with_livestreaming">GAME WITH LIVESTREAMING</p>
-                <p>There are many variations of passages of Lorem Ipsum available have suffered alteration in some injected</p>
-                <div class="part_1_child">
-                    <div class="play_now">
-                        <p id="play_now">PLAY NOW</p>
-                        <img src="arrow.png" class="arrow" id="play_now"></div>
-                    <div class="triangle"></div>
-                    <div class="circle"></div>
-                </div>   
+      </ul>
+    </div>
+    <div class="paralellogram_1" id="paralellograms"></div>
+    <div class="paralellogram_2" id="paralellograms"></div>
+    <div class="paralellogram_3" id="paralellograms"></div>
+    <div class="paralellogram_4" id="paralellograms"></div>
+    <div class="part_1">
+      <div class="part_1_text">
+        <p id="any_where">ANY WHERE</p>
+        <img src="star.png" id="star" />
+        <p id="any_time">ANY TIME</p>
+        <p id="game_with_livestreaming">GAME WITH LIVESTREAMING</p>
+        <p>
+          There are many variations of passages of Lorem Ipsum available have
+          suffered alteration in some injected
+        </p>
+        <div class="part_1_child">
+          <div class="play_now">
+            <p id="play_now">PLAY NOW</p>
+            <img src="arrow.png" class="arrow" id="play_now" />
+          </div>
+          <div class="triangle"></div>
+          <div class="circle"></div>
         </div>
-        <img src="warzone.png" id="warzone">
+      </div>
+      <img src="warzone.png" id="warzone" />
+    </div>
+    <div class="part_2">
+      <img src="girl.png" id="girl" />
+      <div class="triangle2"></div>
+      <div class="circle2"></div>
+      <div class="hexagon">
+        <p id="watch_live_streaming">WATCH LIVE STREAMING</p>
+      </div>
+      <div class="part_2_text">
+        <p id="live_streaming">LIVE STREAMING</p>
+        <p id="watch_unlimited">WATCH UNLIMITED LIVE STREAMING.</p>
+        <p>
+          Gamic is the best way to explore the world of gaming. With a new,
+          fully interactive website
+        </p>
+        <div class="play_now_2">
+          <p id="play_now">PLAY NOW</p>
+          <img src="arrow.png" class="arrow" />
         </div>
-        <div class="part_2">
-            <img src="girl.png" id="girl">
-            <div class="triangle2"></div>
-            <div class="circle2"></div>
-            <div class="hexagon">
-                <p id="watch_live_streaming">WATCH LIVE STREAMING</p>
-            </div>
-            <div class="part_2_text">
-                <p id="live_streaming">LIVE STREAMING</p>
-                <p id="watch_unlimited">WATCH UNLIMITED LIVE STREAMING.</p>
-                <p>Gamic is the best way to explore the world of gaming. With a new, fully interactive website</p>
-                <div class="play_now_2">
-                    <p id="play_now">PLAY NOW</p>
-                    <img src="arrow.png" class="arrow"></div>
-                </div>
-            </div>  
-            
-        <div class="part_3">
-            <p id="upcoming_match">UPCOMING MATCH</p>
-            <p id="part_3_text">The teams soccer in the next hour. You've been waiting for the best. You've got the match of your life</p>
-            <div class="match_1">
-                <div class="match_div1">
-                    <img src="m1.png" class="img">
-                    <img src="vs.png" class="vs">
-                    <img src="m2.png" class="img"></div>
-                <div class="livestream">
-                    <img src="watch.png" class="watch">
-                    <p class="live_stream">Live Stream</p>
-                </div>
-                <div class="details">
-                    <p class="date">Sunday, June 26, 2022</p>
-                    <p class="match_name">APPLETON GAME 2022</p>
-                    <p class="teams_registered">02 Teams Registered</p>
-                </div>
-            </div>
-            <div class="match_2">
-                <div class="match_div2">
-                    <img src="m3.png" class="img">
-                    <img src="vs.png" class="vs">
-                    <img src="m4.png" class="img"></div>
-                <div class="livestream">
-                    <img src="watch.png" class="watch">
-                    <p class="live_stream">Live Stream</p>
-                </div>
-                <div class="details">
-                    <p class="date">Sunday, June 26, 2022</p>
-                    <p class="match_name">WINOCREW GAME 2022</p>
-                    <p class="teams_registered">03 Teams Registered</p>
-                </div>  
-            </div>
-            <div class="match_2">
-                <div class="match_div2">
-                    <img src="m5.png" class="img">
-                    <img src="vs.png" class="vs">
-                    <img src="m6.png" class="img"></div>
-                <div class="livestream">
-                    <img src="watch.png" class="watch">
-                    <p class="live_stream">Live Stream</p>
-                </div>
-                <div class="details">
-                    <p class="date">Sunday, June 26, 2022</p>
-                    <p class="match_name">MYSTICMERRY GAME 2022</p>
-                    <p class="teams_registered">02 Teams Registered</p>
-                </div>
-            </div>
-            <div class="match_1">
-                <div class="match_div1">
-                    <img src="m7.png" class="img">
-                    <img src="vs.png" class="vs">
-                    <img src="m8.png" class="img"></div>
-                <div class="livestream">
-                    <img src="watch.png" class="watch">
-                    <p class="live_stream">Live Stream</p>
-                </div>
-                <div class="details">
-                    <p class="date">Sunday, June 26, 2022</p>
-                    <p class="match_name">MYSTICMERRY GAME 2022</p>
-                    <p class="teams_registered">02 Teams Registered</p>
-                </div>
-            </div>
-            <div class="match_2">
-                <div class="match_div1">
-                    <img src="m9.png" class="img">
-                    <img src="vs.png" class="vs">
-                    <img src="m10.png" class="img"></div>
-                <div class="livestream">
-                    <img src="watch.png" class="watch">
-                    <p class="live_stream">Live Stream</p>
-                </div>
-                <div class="details">
-                    <p class="date">Sunday, June 26, 2022</p>
-                    <p class="match_name">MYSTICMERRY GAME 2022</p>
-                    <p class="teams_registered">02 Teams Registered</p>
-                </div>
-            </div>
-            <br>
+      </div>
+    </div>
+
+    <div class="part_3">
+      <p id="upcoming_match">UPCOMING MATCH</p>
+      <p id="part_3_text">
+        The teams soccer in the next hour. You've been waiting for the best.
+        You've got the match of your life
+      </p>
+      <div class="match_1">
+        <div class="match_div1">
+          <img src="m1.png" class="img" />
+          <img src="vs.png" class="vs" />
+          <img src="m2.png" class="img" />
         </div>
-        <br clear="all">
-        <div class="others_match">
-            <p id="play_now">Other's Match</p>
-            <img src="arrow.png" class="arrow"></div>
-        <div class="part_4">
-            <div class="part_4_child">
-            <div class="part_4_div">
-                    <p class="part_4_1">8697</p>
-                    <p class="part_4_2">TWITCH STREAMS</p>
-            </div>
-            <div class="part_4_div">
-                <p class="part_4_1">428</p>
-                <p class="part_4_2">TOTAL GAMES</p>
-            </div>
-            <div class="part_4_div">
-                <p class="part_4_1">5480</p>
-                <p class="part_4_2">YOUTUBE STREAMS</p>
-            </div>
-            <div class="part_4_div">
-                <p class="part_4_1">249</p>
-                <p class="part_4_2">PRO TEAM</p>
-            </div>
-            </div>
+        <div class="livestream">
+          <img src="watch.png" class="watch" />
+          <p class="live_stream">Live Stream</p>
         </div>
-        <div class="part_5">
-            <div class="subscribe">
-                <p id="subscribe_newsletter">SUBSCRIBE NEWSLETTER</p>
-                <p id="subscribe_text">When unknown printer took type and scrambled it to make type specimen book centuries.</p>
-            </div>
-            <form>
-                <label for="email"></label>
-                <input type="text" id="email" placeholder="Enter your email">
-            </form>
-            <div class="subscribe_button">
-                <p id="play_now">SUBSCRIBE</p>
-                <img src="arrow.png" class="arrow"></div>
+        <div class="details">
+          <p class="date">Sunday, June 26, 2022</p>
+          <p class="match_name">APPLETON GAME 2022</p>
+          <p class="teams_registered">02 Teams Registered</p>
         </div>
-        <div class="part_6">
-            
-            <div class="part_6_1" id="p6">
-                <b><p class="part_6_Game8">Game8</p></b>
-                <p>Game8 is the best way to explore the world of gaming. With a new, fully interactive website</p>
-                <div class="social">
-                    <img src="1.png" class="social_media">
-                    <img src="2.png" class="social_media">
-                    <img src="3.png" class="social_media">
-                    <img src="4.png" class="social_media">
-                </div>
-            </div>   
-            <div class="part_6_2" id="p6">
-                <b><p class="part_6_title">CONTACT</p></b>
-                <p id="p6sub">Location:</p>
-                <p>136 Harding Ave Wheeling, West Virginia</p>
-                <p id="p6sub">Phone:</p>
-                <p>00 (62) 632 867 4497</p>
-            </div> 
-            <div class="part_6_3" id="p6">
-                <b><p class="part_6_title">HELP</p></b>
-                <p>Licenses</p>
-                <p>Style Guide</p>
-                <p>ChangeLog</p>
-                <p>Motion Design</p>
-                <p>Illustration</p>
-            </div>
-            <div class="part_6_4" id="p6">
-                <b><p class="part_6_title">TODAY'S WINNERS</p></b>
-                <div class="winners">
-                    <img src="l1.png" class="win">
-                    <img src="l2.png" class="win">
-                    <img src="l3.png" class="win">
-                    <img src="l4.png" class="win">
-                    <img src="l5.png" class="win">
-                    <img src="l6.png" class="win">
-                </div>
-            </div>
-        </div>    
-    </body>
+      </div>
+      <div class="match_2">
+        <div class="match_div2">
+          <img src="m3.png" class="img" />
+          <img src="vs.png" class="vs" />
+          <img src="m4.png" class="img" />
+        </div>
+        <div class="livestream">
+          <img src="watch.png" class="watch" />
+          <p class="live_stream">Live Stream</p>
+        </div>
+        <div class="details">
+          <p class="date">Sunday, June 26, 2022</p>
+          <p class="match_name">WINOCREW GAME 2022</p>
+          <p class="teams_registered">03 Teams Registered</p>
+        </div>
+      </div>
+      <div class="match_2">
+        <div class="match_div2">
+          <img src="m5.png" class="img" />
+          <img src="vs.png" class="vs" />
+          <img src="m6.png" class="img" />
+        </div>
+        <div class="livestream">
+          <img src="watch.png" class="watch" />
+          <p class="live_stream">Live Stream</p>
+        </div>
+        <div class="details">
+          <p class="date">Sunday, June 26, 2022</p>
+          <p class="match_name">MYSTICMERRY GAME 2022</p>
+          <p class="teams_registered">02 Teams Registered</p>
+        </div>
+      </div>
+      <div class="match_1">
+        <div class="match_div1">
+          <img src="m7.png" class="img" />
+          <img src="vs.png" class="vs" />
+          <img src="m8.png" class="img" />
+        </div>
+        <div class="livestream">
+          <img src="watch.png" class="watch" />
+          <p class="live_stream">Live Stream</p>
+        </div>
+        <div class="details">
+          <p class="date">Sunday, June 26, 2022</p>
+          <p class="match_name">MYSTICMERRY GAME 2022</p>
+          <p class="teams_registered">02 Teams Registered</p>
+        </div>
+      </div>
+      <div class="match_2">
+        <div class="match_div1">
+          <img src="m9.png" class="img" />
+          <img src="vs.png" class="vs" />
+          <img src="m10.png" class="img" />
+        </div>
+        <div class="livestream">
+          <img src="watch.png" class="watch" />
+          <p class="live_stream">Live Stream</p>
+        </div>
+        <div class="details">
+          <p class="date">Sunday, June 26, 2022</p>
+          <p class="match_name">MYSTICMERRY GAME 2022</p>
+          <p class="teams_registered">02 Teams Registered</p>
+        </div>
+      </div>
+      <br />
+    </div>
+    <br clear="all" />
+    <div class="others_match">
+      <p id="play_now">Other's Match</p>
+      <img src="arrow.png" class="arrow" />
+    </div>
+    <div class="part_4">
+      <div class="part_4_child">
+        <div class="part_4_div">
+          <p class="part_4_1">8697</p>
+          <p class="part_4_2">TWITCH STREAMS</p>
+        </div>
+        <div class="part_4_div">
+          <p class="part_4_1">428</p>
+          <p class="part_4_2">TOTAL GAMES</p>
+        </div>
+        <div class="part_4_div">
+          <p class="part_4_1">5480</p>
+          <p class="part_4_2">YOUTUBE STREAMS</p>
+        </div>
+        <div class="part_4_div">
+          <p class="part_4_1">249</p>
+          <p class="part_4_2">PRO TEAM</p>
+        </div>
+      </div>
+    </div>
+    <div class="part_5">
+      <div class="subscribe">
+        <p id="subscribe_newsletter">SUBSCRIBE NEWSLETTER</p>
+        <p id="subscribe_text">
+          When unknown printer took type and scrambled it to make type specimen
+          book centuries.
+        </p>
+      </div>
+      <form>
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Enter your email" />
+      </form>
+      <div class="subscribe_button">
+        <p id="play_now">SUBSCRIBE</p>
+        <img src="arrow.png" class="arrow" />
+      </div>
+    </div>
+    <div class="part_6">
+      <div class="part_6_1" id="p6">
+        <b><p class="part_6_Game8">Game8</p></b>
+        <p>
+          Game8 is the best way to explore the world of gaming. With a new,
+          fully interactive website
+        </p>
+        <div class="social">
+          <img src="1.png" class="social_media" />
+          <img src="2.png" class="social_media" />
+          <img src="3.png" class="social_media" />
+          <img src="4.png" class="social_media" />
+        </div>
+      </div>
+      <div class="part_6_2" id="p6">
+        <b><p class="part_6_title">CONTACT</p></b>
+        <p id="p6sub">Location:</p>
+        <p>136 Harding Ave Wheeling, West Virginia</p>
+        <p id="p6sub">Phone:</p>
+        <p>00 (62) 632 867 4497</p>
+      </div>
+      <div class="part_6_3" id="p6">
+        <b><p class="part_6_title">HELP</p></b>
+        <p>Licenses</p>
+        <p>Style Guide</p>
+        <p>ChangeLog</p>
+        <p>Motion Design</p>
+        <p>Illustration</p>
+      </div>
+      <div class="part_6_4" id="p6">
+        <b><p class="part_6_title">TODAY'S WINNERS</p></b>
+        <div class="winners">
+          <img src="l1.png" class="win" />
+          <img src="l2.png" class="win" />
+          <img src="l3.png" class="win" />
+          <img src="l4.png" class="win" />
+          <img src="l5.png" class="win" />
+          <img src="l6.png" class="win" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
