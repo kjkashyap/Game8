@@ -57,6 +57,7 @@ li{
 }
 .topnav{
     text-align: center;
+    overflow: hidden;
 }
 
 #left{
@@ -78,7 +79,7 @@ li{
     
 }
 
-#menu{
+#hamburger-menu{
     display: none;
 }
 
@@ -120,10 +121,14 @@ a{
     margin-top: 3%;
 }
 
+#hamburger-menu{
+    display: none;
+}
+
 .part_1_text{
     padding-left: 15%;
     margin-top: 5%;
-    width: 40%;
+    width: 50%;
     float: left;
 }
 
@@ -139,7 +144,6 @@ a{
     background-color:#7ba435;
     color: white;
     border-radius: 7px;
-    width: 60%;
     float:left;
     margin-right: 5%;
     margin-top: 3%;
@@ -188,7 +192,6 @@ a{
     width: 15px;
     display: inline;
     float: left;
-    padding-top: 20px;
     margin-right: 20px;
 }
 
@@ -205,7 +208,7 @@ a{
 .part_2{
     margin-top: 550px;
     background-color: #000f2e;
-    margin-left: 0;
+    margin-left: 0%;
     height: 400px;
 }
 
@@ -335,10 +338,14 @@ a{
     margin-bottom: 10px;
 }
 
-.match_1{
+#match-cards{
+    margin-left: 7%;
+}
+
+#match_1{
     border: 2px solid #1c2e44 ;
-    width: 20%;
-    margin-left: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 5px;
     position: relative;
     margin-top: 40px;
@@ -413,10 +420,10 @@ a{
     color: #7ba435;
 }
 
-.match_2{
+#match_2{
     border: 2px solid #1c2e44 ;
-    width: 20%;
-    margin-left:5%;
+    margin-left:2%;
+    margin-right: 2%;
     border-radius: 5px;
     position: relative;
     margin-top: 40px;
@@ -447,7 +454,7 @@ a{
     background-color:#7ba435;
     color: white;
     border-radius: 5px;
-    width: 130px;
+    width: 12%;
     padding: 10px 15px 10px 15px;
 }
 
@@ -465,7 +472,7 @@ a{
     
 }
 
-.part_4_child{
+#part_4_child{
     width: 70%;
     margin-left: 15%;
     border: 2px solid #1c2e44;
@@ -481,6 +488,7 @@ a{
     font-size: 400%;
     margin-bottom: 10px;
     margin-top: 15px;
+    text-align: center;
 }
 
 .part_4_2{
@@ -489,6 +497,7 @@ a{
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .part_5{
@@ -528,10 +537,10 @@ a{
     color:white;
     background-color:#000f2e;
     border-radius: 5px;
-    margin-top:-50px;
-    right: 18%;
+    margin-top:-48px;
+    right: 21%;
     padding:1%;
-    width: 8%;
+    width: 9%;
 }
 
 
@@ -559,7 +568,7 @@ a{
     float: left;
 }
 
-.part_6_1{
+/* .part_6_1{
     width: 20%;
     margin-right: 5%;
 }
@@ -573,7 +582,7 @@ a{
     
     margin-right: 5%;
    
-}
+} */
 .part_6_title{
     color: white;
     font-size: 18px ;
@@ -610,18 +619,41 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    .center, .right, #cart{
+    #menu{
+        display: none;
+        clear: both;
+        background-color: #7ba435;
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        border-radius: 7px;
+    }
+
+    .center,.right{
+        clear: both;
+        display: block;
+        float: left;
+        padding: 1%;
+
+    }
+
+    #hamburger-menu{
+        display: block;
+        float: right;
+        margin-top: 3%;
+        margin-right: 10%;
+    }
+
+    .arrow, #cart{
         display: none;
     }
+
+
 
     body{
         margin-right: 0;
     }
 
-    #menu{
-        display: block;
-        float: right;
-    }
 
     #paralellograms{
         
@@ -631,11 +663,11 @@ a{
     .topnav{
         margin-top: 5%;
         display: inline-block;
+        width: 100%;
     }
 
     .part_1_text{
         width: 80%;
-        margin-left: -5%;
         margin-right: 0%;
     }
 
@@ -646,6 +678,8 @@ a{
     #left{
         margin-left: 10%;
         float: left;
+        display: inline;
+        margin-right: 0px;
     }
 
     .play_now{
@@ -673,8 +707,9 @@ a{
 
     .part_2{
         margin-top: 150%;
-        margin-right: 0;
+        margin-right: 0%;
         height: 700px;
+        width: 100%;
     }
 
     #girl{
@@ -701,10 +736,6 @@ a{
         margin-left:15% ;
     }
 
-    .match_1, .match_2{
-        width: 70%;
-        margin-left: 15%;
-    }
     .livestream{
         margin-left: 35%;
     }
